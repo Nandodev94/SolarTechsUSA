@@ -1,0 +1,130 @@
+body {
+min-width: 100%;
+}
+
+h5 {
+    color: yellow;
+}
+p {
+    /* font-size: 3rem;
+    line-height: 1.5; */
+}
+
+
+.title-container {
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 7rem;
+    margin-right: 0px;
+}
+
+#intro {
+    justify-content: center;
+    /* background-color: grey; */
+    padding-bottom: 7rem;
+
+
+
+background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("../../media/examples/lizard.png");
+}
+
+.row {
+  padding-right: 0px;
+}
+.title-quote {
+
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-right: 0px;
+
+}
+
+/* Carousel Section */
+
+
+
+
+.info-inner {
+    background-color: rgb(63, 62, 60);
+    text-align: center;
+    /* height: 900px; */
+    padding-bottom: 4rem;
+    /* width: 20px; */
+}
+
+.info-caption {
+    color: yellow;
+    /* background-color: grey; */
+    /* opacity: 0.33; */
+}
+
+.info-text {
+    /* opacity: 3; */
+}
+
+.img-fluid {
+  max-width: 80%!important;
+}
+
+/* CTA SECTION */
+.cta-container {
+padding: 10%;
+text-align: center;
+}
+
+.form-submit{
+  padding-top: 2%;
+}
+.form-email {
+  padding: 1% 0;
+}
+
+#number {
+  padding-left: 1%:
+}
+/* FOOTER SECTION */
+#footer {
+}
+.footer-container{
+  text-align: center;
+  padding: 5% 0;
+}
+                                          /* ABOUT US PAGE */
+
+
+/* ABOUT US */
+#aboutus{
+  padding-top: 5rem;
+  /* justify-content: flex-start; */
+/* text-align: left; */
+/* width: 100%; */
+margin: 10% 10%;
+
+}
+
+.aboutus-container {
+    /* max-width: 80%; */
+    text-align: left;
+}
+/* Testimonial Section */
+#testimonials {
+  /* margin: 15rem 15% 12rem; */
+  background-color: #EF8172;
+  color: #fff;
+  padding: 5% 5% 4%;
+}
+
+.test-inner {
+  text-align: center;
+  margin: 20px;
+  width: 10%;
+  height: 15rem;
+}
+
+
+.carousel-item {
+  padding: 1rem 15% 7rem;
+max-height: 15rem;
+margin-bottom: 4rem;
+}

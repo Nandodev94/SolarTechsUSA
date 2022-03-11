@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+
+  <!-- Styles css -->
+  <link rel="stylesheet" href="CSS - Solar Titans\styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>SolarTechsUSA</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-light bg-warning fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Solar Techs USA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end bg-warning" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Solar Techs USA</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about us.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- INTRO SECTION -->
+  <section id="intro">
+    <div class="">
+      <div class="row title-container">
+        <div class="title-quote">
+          <h1>Solar Techs USA</h1>
+          <p>Are you interested in Solar?</p>
+          <button class="btn btn-warning btn-lg" type="button">Request a Quote</button>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- CAROUSEL SECTION-->
+  <section id="info-carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner info-inner">
+        <div class="carousel-item active">
+          <img src="CSS - Solar Titans\Images\Solar Home1.jpg" class="carousel-image img-fluid" alt="...">
+          <div class="carousel-caption info-caption">
+            <h5 class="carousel-text">First slide label</h5>
+            <p class="carousel-text">Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item info-inner">
+          <img src="CSS - Solar Titans\Images\Solar Home2.jpg" class="carousel-image img-fluid" alt="...">
+          <div class="carousel-caption info-caption">
+            <h5 class="carousel-text">Second slide label</h5>
+            <p class="carousel-text">Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item info-inner">
+          <img src="CSS - Solar Titans\Images\Solar Home3.jpg" class="carousel-image img-fluid" alt="...">
+          <div class="carousel-caption info-caption">
+            <h5 class="carousel-text">Third slide label</h5>
+            <p class="carousel-text">Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="cta">
+    <div class="cta-container">
+      <div class="cta-caption">
+        <h3>Go green! Save the Planet! Follow us on Social Media and spread the word!</h3>
+      </div>
+      <form method="post" action="https://getform.io/f/dc0a74d3-dbc2-4efd-8a65-84fd5f2a2a27" class="cta-form">
+        <div class="form-name">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-email">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-number">
+          <label for="tel"> Best Callback #: </label>
+          <input type="tel" name="number" id="number" required>
+        </div>
+        <div class="form-submit">
+          <input type="submit" class="btn btn-warning"value="Send Request">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="footer-container bg-warning">
+      <div class="footer-links">
+        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-envelope"></i></a>
+      </div>
+      <div class="footer-copyright">
+        <p>© Copyright Solar-Techs LLC</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
